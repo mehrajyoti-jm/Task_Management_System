@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net10.0\TaskManagementAPI.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\TaskManagementAPI.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net10.0\TaskManagementAPI.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net10.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net10.0\appsettings.json" />
+    <Content Include="bin\Debug\net10.0\TaskManagementAPI.deps.json" />
+    <Content Include="bin\Debug\net10.0\TaskManagementAPI.runtimeconfig.json" />
+    <Content Include="bin\Debug\net10.0\TaskManagementAPI.staticwebassets.endpoints.json" />
+    <Content Include="obj\Debug\net10.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net10.0\EndpointInfo\TaskManagementAPI.json" />
+    <Content Include="obj\Debug\net10.0\rjsmcshtml.dswa.cache.json" />
+    <Content Include="obj\Debug\net10.0\rjsmrazor.dswa.cache.json" />
+    <Content Include="obj\Debug\net10.0\rpswa.dswa.cache.json" />
+    <Content Include="obj\Debug\net10.0\staticwebassets.build.endpoints.json" />
+    <Content Include="obj\Debug\net10.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net10.0\staticwebassets.references.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net10.0\staticwebassets.removed.txt" />
+    <Content Include="obj\Debug\net10.0\TaskManagementAPI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\TaskManagementAPI.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll" />
+    <None Include="bin\Debug\net10.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net10.0\TaskManagementAPI.dll" />
+    <None Include="bin\Debug\net10.0\TaskManagementAPI.exe" />
+    <None Include="bin\Debug\net10.0\TaskManagementAPI.pdb" />
+    <None Include="obj\Debug\net10.0\apphost.exe" />
+    <None Include="obj\Debug\net10.0\EndpointInfo\TaskManagementAPI.OpenApiFiles.cache" />
+    <None Include="obj\Debug\net10.0\refint\TaskManagementAPI.dll" />
+    <None Include="obj\Debug\net10.0\ref\TaskManagementAPI.dll" />
+    <None Include="obj\Debug\net10.0\staticwebassets.build.json.cache" />
+    <None Include="obj\Debug\net10.0\swae.build.ex.cache" />
+    <None Include="obj\Debug\net10.0\TaskMana.0D8D9FF3.Up2Date" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.assets.cache" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.dll" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net10.0\TaskManagementAPI.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\TaskManagementAPI.csproj.nuget.g.props" />
+    <None Include="obj\TaskManagementAPI.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net10.0\staticwebassets\" />
+  </ItemGroup>
+
+</Project>
